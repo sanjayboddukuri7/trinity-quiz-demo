@@ -90,7 +90,7 @@ export function Shell({ sections, activeKey, user, onEditName, onReset, children
               <div className="text-[11px] text-white/45 truncate">{user.subtitle}</div>
             </div>
           </button>
-          <button onClick={() => { setOpen(false); onReset(); }} className="p-2 rounded-md text-white/50 hover:text-white hover:bg-white/[0.06]" aria-label="Reset demo" title="Reset demo progress">
+          <button onClick={() => { setOpen(false); onReset(); }} className="p-2 rounded-md text-white/50 hover:text-white hover:bg-white/[0.06]" aria-label="Reset prototype" title="Reset prototype progress">
             <RotateCcw className="w-4 h-4" />
           </button>
         </div>

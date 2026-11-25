@@ -19,7 +19,7 @@ export interface StudentData {
   visibleTopics: typeof TOPICS;
 }
 
-// Every set is open in the demo.
+// Every set is open in the prototype.
 const isLocked = () => false;
 
 export function StudentApp() {
@@ -128,7 +128,7 @@ export function StudentApp() {
     <Shell
       sections={sections}
       activeKey={activeKey}
-      user={{ name: profile.name, subtitle: 'Demo visitor · tap to rename' }}
+      user={{ name: profile.name, subtitle: 'Prototype visitor · tap to rename' }}
       onEditName={openNameEditor}
       onReset={() => setResetOpen(true)}
     >
@@ -160,7 +160,7 @@ export function StudentApp() {
       <Modal
         open={resetOpen}
         onClose={() => setResetOpen(false)}
-        title="Reset the demo?"
+        title="Reset the prototype?"
         footer={
           <>
             <button className="btn-outline" onClick={() => setResetOpen(false)}>Cancel</button>
@@ -171,7 +171,7 @@ export function StudentApp() {
                 setAttempts([]);
                 setProfile(loadProfile());
                 setResetOpen(false);
-                setToast('Demo reset. Every set is fresh again.');
+                setToast('Prototype reset. Every set is fresh again.');
                 navigate('', { replace: true });
               }}
             >
@@ -180,7 +180,7 @@ export function StudentApp() {
           </>
         }
       >
-        This clears your name, results and in-progress sets from this browser so you can try the demo from the start.
+        This clears your name, results and in-progress sets from this browser so you can try the prototype from the start.
       </Modal>
 
       {toast && (

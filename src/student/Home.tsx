@@ -48,7 +48,7 @@ export function Home({ data, onEditName }: { data: StudentData; onEditName: () =
         <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} className="mb-6 rounded-xl border border-brand/20 bg-brand-soft px-5 py-4 flex gap-3">
           <Sparkles className="w-5 h-5 text-brand shrink-0 mt-0.5" />
           <div>
-            <div className="text-xs font-semibold text-brand mb-0.5">Welcome to Trinity Quiz (Demo)</div>
+            <div className="text-xs font-semibold text-brand mb-0.5">Welcome to Trinity Quiz (Prototype)</div>
             <p className="text-[14.5px] text-ink">
               Pick any topic and try a set. You get a question palette, mark for review, a timer, keyboard shortcuts and a full answer
               review with explanations. Leave mid-way and you can resume later. No sign-up needed.

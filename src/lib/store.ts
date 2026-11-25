@@ -1,6 +1,6 @@
 /**
- * Trinity Quiz (Demo) keeps everything in the visitor's browser (localStorage).
- * There is no server, database or login: this is a demo for Trinity Tech clients.
+ * Trinity Quiz (Prototype) keeps everything in the visitor's browser (localStorage).
+ * There is no server, database or login: this is a prototype for Trinity Tech clients.
  */
 
 export interface Profile {

@@ -1,6 +1,6 @@
-# Trinity Quiz (Demo)
+# Trinity Quiz (Prototype)
 
-A demo quiz platform by [Trinity Tech](https://trinity-tech.vercel.app), built to show clients what a practice-quiz website can do.
+A prototype quiz platform by [Trinity Tech](https://trinity-tech.vercel.app), built to show clients what a practice-quiz website can do.
 
 Visitors open it directly — no access code, no sign-up.
 
@@ -10,8 +10,8 @@ Visitors open it directly — no access code, no sign-up.
 - Leave mid-set and resume later
 - Result page with score ring and an answer review filtered by wrong / skipped / correct, with explanations
 - Results history per topic
-- Rename yourself or reset the demo from the sidebar
-- "Demo by Trinity Tech" ribbon on every screen and a footer linking to Trinity Tech
+- Rename yourself or reset the prototype from the sidebar
+- "Prototype by Trinity Tech" ribbon on every screen and a footer linking to Trinity Tech
 
 No backend, database or API keys: everything is saved in the visitor's browser (localStorage).
 

@@ -11,7 +11,7 @@ export function ResultView({ attempt, data }: { attempt?: Attempt; data: Student
     return (
       <Page>
         <Empty title="Result not found" action={<button className="btn-outline" onClick={() => navigate('history')}>Go to my results</button>}>
-          It may have been cleared when the demo was reset.
+          It may have been cleared when the prototype was reset.
         </Empty>
       </Page>
     );

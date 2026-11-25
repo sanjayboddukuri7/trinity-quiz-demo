@@ -22,7 +22,7 @@ export function DemoRibbon() {
   return (
     <div role="note" className="bg-gradient-to-r from-[#b8741a] via-[#e8a33d] to-[#f6d28a] text-[#1b1407] text-[12.5px]">
       <div className="max-w-6xl mx-auto px-4 sm:px-8 py-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-center">
-        <span className="rounded-full bg-[#1b1407] text-[#f6c66b] px-2 py-0.5 text-[10.5px] font-bold tracking-[0.14em]">DEMO</span>
+        <span className="rounded-full bg-[#1b1407] text-[#f6c66b] px-2 py-0.5 text-[10.5px] font-bold tracking-[0.14em]">PROTOTYPE</span>
         <span>Sample project by Trinity Tech. Your progress is saved only in this browser.</span>
         <a href={START_PROJECT_URL} target="_blank" rel="noreferrer" className="font-semibold underline underline-offset-2 inline-flex items-center gap-0.5">
           Get a quiz like this <ArrowUpRight className="w-3.5 h-3.5" />
@@ -37,7 +37,7 @@ export function DemoFooter() {
     <footer className="max-w-6xl mx-auto px-4 sm:px-8 pb-10">
       <div className="border-t border-line pt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-[13px] text-ink-muted">
         <p>
-          <span className="font-semibold text-ink">Trinity Quiz (Demo)</span> is a demo project by{' '}
+          <span className="font-semibold text-ink">Trinity Quiz (Prototype)</span> is a prototype by{' '}
           <a href={TRINITY_URL} target="_blank" rel="noreferrer" className="font-semibold text-brand hover:underline">Trinity Tech</a>.
           Questions and results are samples for demonstration only.
         </p>
@@ -203,7 +203,7 @@ export function Logo({ light = false }: { light?: boolean }) {
       <img src="/mark.png" alt="" className="w-9 h-7 object-contain shrink-0 drop-shadow-[0_0_8px_rgba(232,163,61,0.45)]" />
       <div className="leading-none">
         <div className={`font-brand text-[14px] font-bold tracking-[0.12em] uppercase ${light ? 'text-white' : 'text-ink'}`}>
-          Trinity Quiz <span className="text-[#e8a33d] normal-case tracking-normal font-sans text-[12px] font-semibold">(Demo)</span>
+          Trinity Quiz <span className="text-[#e8a33d] normal-case tracking-normal font-sans text-[12px] font-semibold">(Prototype)</span>
         </div>
         <div className={`text-[11px] mt-1 ${light ? 'text-white/50' : 'text-ink-muted'}`}>by Trinity Tech</div>
       </div>

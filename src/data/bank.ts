@@ -1,4 +1,4 @@
-// Question bank for Trinity Quiz (Demo): general knowledge from around the world.
+// Question bank for Trinity Quiz (Prototype): general knowledge from around the world.
 // Each question: [question, options, index of the correct option, explanation].
 // To add a set, add an entry to SETS; topics and set numbers are worked out automatically.
 
